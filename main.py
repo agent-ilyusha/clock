@@ -1,4 +1,3 @@
-# --coding: utf-8
-
-print("hello world and {0}!".format('ilyusha'))
+# --coding: utf-8k
+print("hello world and {0}!".format('Kirill'))
 
