@@ -3,6 +3,6 @@ def func(txt: str) -> str:
     return text
 
 print(len(set(func(input("Введите строку: ")))))
-
+# qsd
 
 

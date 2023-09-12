@@ -19,5 +19,5 @@ def func_shift(com: str, list_i: list) -> List[any]:
 
 command = input('Введите команду: ')
 list_input = func_list()
-
+# asf
 print(func_shift(command, list_input))
