@@ -1,4 +1,8 @@
-# --coding: utf-8
+def func(txt: str) -> str:
+    text = ''.join([el for el in txt.lower() if txt.count(el) > 1])
+    return text
 
-print("hello world and {0}!".format('ilyusha'))
+print(len(set(func(input("Введите строку: ")))))
+
+
 
